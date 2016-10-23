@@ -8,6 +8,10 @@
 
 * Configuration
 Remove Turbolinks from Gemfile and from application.js
+Remove Turbolink call from application.html.erb
+Add "config.react.variant = :development" to config/environments/development.rb
+after the do line.
+Run $rails g react:install to automatically setup javascripts in assets and confiugre includes
 
 * Database creation
 
