@@ -15,6 +15,9 @@ Run $rails g react:install to automatically setup javascripts in assets and conf
 Set up application.scss with @import Boostrap SASS and Sporkets
 Generate Controller dashboard index
 Generate resource event
+rake db:migrate
+Add root path and the api namespace
+
 
 * Database creation
 
