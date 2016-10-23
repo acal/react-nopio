@@ -12,6 +12,9 @@ Remove Turbolink call from application.html.erb
 Add "config.react.variant = :development" to config/environments/development.rb
 after the do line.
 Run $rails g react:install to automatically setup javascripts in assets and confiugre includes
+Set up application.scss with @import Boostrap SASS and Sporkets
+Generate Controller dashboard index
+Generate resource event
 
 * Database creation
 
