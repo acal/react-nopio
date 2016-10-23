@@ -17,6 +17,9 @@ Generate Controller dashboard index
 Generate resource event
 rake db:migrate
 Add root path and the api namespace
+Create api folder under app/controllers and move events_controller to that folder
+Update the events_controller beginning with module Api and set up index method to return jason format
+
 
 
 * Database creation
