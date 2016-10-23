@@ -30,6 +30,7 @@ Create a React component called event_applications.js.jsx under app/assets/javas
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+* rails server -b $IP -p $PORT
 
 * ...
 # react-nopio
