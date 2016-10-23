@@ -5,6 +5,7 @@
 * Ruby version
 
 * System dependencies
+Gem react-rails: https://github.com/reactjs/react-rails
 
 * Configuration
 Remove Turbolinks from Gemfile and from application.js
@@ -19,12 +20,10 @@ rake db:migrate
 Add root path and the api namespace
 Create api folder under app/controllers and move events_controller to that folder
 Update the events_controller beginning with module Api and set up index method to return jason format
+Change index.html.erb in the dashboard folder to call react component with erb.
+Delete the unnessessary events folder under app/views
+Create a React component called event_applications.js.jsx under app/assets/javascripts/components
 
-
-
-* Database creation
-
-* Database initialization
 
 * How to run the test suite
 
