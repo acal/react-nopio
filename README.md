@@ -1,15 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+* Based on https://www.nopio.com/blog/react-rails-part-1-tutorial/
 
 * Ruby version
 
 * System dependencies
 
 * Configuration
+Remove Turbolinks from Gemfile and from application.js
 
 * Database creation
 
