@@ -23,6 +23,8 @@ Update the events_controller beginning with module Api and set up index method t
 Change index.html.erb in the dashboard folder to call react component with erb.
 Delete the unnessessary events folder under app/views
 Create a React component called event_applications.js.jsx under app/assets/javascripts/components
+Create events.js.jsx
+Create seeds.rb
 
 
 * How to run the test suite

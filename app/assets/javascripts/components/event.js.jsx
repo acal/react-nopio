@@ -1,3 +1,4 @@
+// components/event.js.jsx
 var Event = React.createClass({
   propTypes: {
     name: React.PropTypes.string,
